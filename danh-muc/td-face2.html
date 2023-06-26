@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang điểm</title>
+    <meta name="keywords" content="✅ Mỹ phẩm chính hãng ✅" />
+    <meta name="description" content="Chăm sóc và làm đẹp cùng mỹ phẩm chính hãng" />
+    <meta name="og:title" content="Đẹp cùng mỹ phẩm chính hãng " />
+    <meta name="og:type" content="website" />
+    <link rel="stylesheet" href="../css/category.css">
+    <link rel="stylesheet" href="../css/shopcart-mini.css">
+    <link rel="stylesheet" href="../css/site.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+<body>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ZGKGP8T"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <header>
+        <div class="head-first">
+            <div class="container">
+    
+                <div class="box-social hidden-xs">
+                    <ul class="ul-non ul-social">
+                        <li class=""><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                        <li class="hidden-sm"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        <li class="hidden-sm"><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+                        <li class="hidden-sm"><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+                    </ul>
+
+                    <div class="clr"></div>
+                </div>
+                <div class="box-hotline">
+                    <ul class="ul-non ul-hotline">
+
+                        <li><a href="#" class="just-hl"><span>Hotline:</span> 0905 839 330</a></li>
+                        <li class="hidden-xs"><a href="#" class="just-hl"><span>Tổng đài tư vấn:</span> 1900</a></li>
+                        <li class="hidden-xs">
+                            <a href="#" class="pixen-lg">Tài khoản <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <ul class="ul-non ul-lg">
+                                <li><a href="">Đăng nhập</a></li>
+                                <li><a href="">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clr"></div>
+            </div>
+    
+        </div>
+        <div class="head-second">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="box-logo">
+                            <a href="../danh-muc/trang-chu.html">
+                                <img src="../lib/images/LOGO.png" alt="Logo Machocare.vn" class="img-reponsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-first col-md-6">
+                        <div class="box-Sform">
+                            <form class="form-inline">
+                                <input type="text" class="form-control my-form" id="inlineFormInputName2" placeholder="Tìm kiếm..." value="" autocomplete="off" onfocus="onfos()" onfocusout="unfos()" onkeydown="autocompateFirst()">
+                                <select class="custom-select my-form" id="inlineFormCustomSelectPref">
+                                    <option selected="" value="0">Sản phẩm</option>
+                                    <option value="1">Tin tức</option>
+                                </select>
+                                <button type="button" class="btn btn-search" onclick="Searching()"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                            <div class="xuhuong">
+                                <p>Xu hướng tìm kiếm</p>
+                                <ul class="ul-non ul-xuhuong">
+                                            <li><a href="#">kem duong</a></li>
+                                            <li><a href="#">innisfree</a></li>
+                                            <li><a href="#">sua rua mat the face shop</a></li>
+                                            <li><a href="#">kem chong nang</a></li>
+                                            <li><a href="#">mat na</a></li>
+                                            <li><a href="#">dau tay trang cleansing oil   the face shop 200ml</a></li>
+                                            <li><a href="#">neutrogena</a></li>              
+                                            <li><a href="#">xit khoang</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-last col-md-6 order-md-last hidden-xs">
+                        <div class="box-card">
+                            <ul class="ul-non ul-card">
+                                <li>
+                                    <a href="/danh-sach-yeu-thich.html" class="like-pd" title="Sản phẩm yêu thích">
+                                        <i class="fa-regular fa-heart"></i>
+                                        Yêu thích
+                                        <span id="numberLike" data-id="0">0</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/gio-hang.html" class="shop_cart" title="Giỏ hàng">
+                                        <i class="fa fa-shopping-cart "></i>
+                                        Giỏ hàng
+                                        <span>0</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+            </div>
+        </div>
+        <div class="head-three">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box-menu">
+                            <div class="hidden-md ">
+                                <ul class="ul-non menu-mb">
+                                    <li>
+                                        <a href="#" class="shop_cart_mb" title="Giỏ hàng">
+                                            <i class="fa fa-shopping-cart "></i>
+                                            <span>0</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="like-pd-mb" title="Sản phẩm yêu thích">
+                                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                            <span>0</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="hl-pd-mb" title="Tổng đài">
+                                    <i class="fa fa-phone"></i>
+                                    CSKH: 1900
+                                </a>
+                                <button type="button" class="btn-pd-mb hidden-xs" onclick="showmenutt()">
+                                    Categories
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </button>
+                                <button type="button" class="btn-mn-mb" onclick="showmenu()">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </button>
+                                <div class="clr"></div>
+                            </div>
+                            <ul class="ul-non ul-menu" id="menu">
+                                <li class="hidden-md first-li"><button type="button" class="btn-remove" onclick="showmenu()"><i class="fa fa-times" aria-hidden="true"></i></button></li>
+                                <li class="li-parent-first hidden-xs hidden-sm">
+                                    <a href="javascript:void(0)" class="a-parent" id="megaloger" data-show="false"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                                    <ul class="ul-non ul-menu-lagi" id="ul-megaloger">
+                                        <li>
+                                            <a href="#" class="">
+                                                <div class="img-luna img-icon img-about"></div>
+                                                <span>Về chúng tôi</span>
+                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                            <ul class="ul-non ul-mega">
+                                                <li><a href="#">Giới thiệu MachoCare</a></li>
+                                                <li><a href="#">Hệ thống cửa hàng</a></li>
+                                                <li><a href="#">Chương trình tích điểm</a></li>
+                                                <li><a href="#">Bảo mật thông tin</a></li>
+                                                <li><a href="#">Điều khoản sử dụng</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="">
+                                                <div class="img-luna img-icon img-contact"></div>
+                                                <span>Liên hệ</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                        <li class="li-parent">
+                                            <a href="/danh-muc/trang-diem.html" class="a-parent">
+                                                Trang Điểm
+                                                    <i class="fa fa-angle-down hidden-xs hidden-sm" aria-hidden="true"></i>
+                                            </a>
+                                            <i class="fa fa-angle-right hidden-md ase" aria-hidden="true"></i>
+    
+                                                <div class="out-menu ">
+                                                    <div class="row">
+                                                                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <a href="/danh-muc/khuon-mat.html" class="title-two">Trang Điểm Mặt</a>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    <li>Kem che khuyết điểm</li>
+                                                                                    <li>Cushion</li>
+                                                                                    <li>Kem nền</li>
+                                                                                    <li>Primer - Kem Lót</li>
+                                                                                    <li>Phấn phủ - Phấn nền</li>
+                                                                                    <li>Phấn má hồng</li>
+                                                                                    <li>Tạo khối - Highlighter</li>
+                                                                                    <li>Xịt khoáng nền</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <a href="/danh-muc/mat.html" class="title-two">Trang Điểm Mắt</a>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    <li>Phấn Mắt</li>
+                                                                                    <li>Eye Primer - Kem Lót Mắt</li>
+                                                                                    <li>Kẻ Mày</li>
+                                                                                    <li>Eyeliner - Kẻ Mắt</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <a href="/danh-muc/moi.html" class="title-two">Trang Điểm Môi</a>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    <li>Che khuyết điểm môi</li>
+                                                                                    <li>Son môi</li>
+                                                                                    <li>Son dưỡng</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                    </div>
+                                                </div>
+    
+    
+                                        </li>
+                                        <li class="li-parent">
+                                            <a href="/danh-muc/cham-soc-da.html" class="a-parent">
+                                                Chăm Sóc Da
+                                                    <i class="fa fa-angle-down hidden-xs hidden-sm" aria-hidden="true"></i>
+                                            </a>
+                                            <i class="fa fa-angle-right hidden-md ase" aria-hidden="true"></i>
+    
+                                                <div class="out-menu right-mn">
+                                                    <div class="row">
+                                                                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <a href="/danh-muc/mask-mat-na.html" class="title-two">Mask - Mặt nạ</a>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    <li>Mặt nạ lột mụn</li>
+                                                                                    <li>Mask Đất Sét</li>
+                                                                                    <li>Mask Giấy</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <a href="/danh-muc/lam-sach.html" class="title-two">Làm sạch da </a>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    <li>Sữa rửa mặt</li>
+                                                                                    <li>Tẩy trang </li>
+                                                                                    <li>Tẩy tế bào chết</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <a href="/danh-muc/duong-da.html" class="title-two">Dưỡng da </a>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    <li>Dưỡng da mặt</li>                                              
+                                                                                    <li>Dưỡng vùng mắt</li>
+                                                                                    <li>Kem dưỡng da</li>                                          
+                                                                                    <li>Lotion - Sữa dưỡng</li>
+                                                                                    <li>Toner - Nước hoa hồng</li>
+                                                                                    <li>Kem chống nắng</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                    </div>
+                                                </div>
+    
+    
+                                        </li>
+                                        <li class="li-parent">
+                                            <a href="/danh-muc/cham-soc-toc.html" class="a-parent">
+                                                Chăm Sóc Tóc
+                                                    <i class="fa fa-angle-down hidden-xs hidden-sm" aria-hidden="true"></i>
+                                            </a>
+                                            <i class="fa fa-angle-right hidden-md ase" aria-hidden="true"></i>
+    
+                                                <div class="out-menu right-mn">
+                                                    <div class="row">
+                                                                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <ul class="ul-non ul-out">
+        
+                                                                                    <li>Dầu gội</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    
+                                                                                    <li>Serum dưỡng tóc</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                       
+                                                    </div>
+                                                </div>
+    
+    
+                                        </li>
+                                        <li class="li-parent">
+                                            <a href="/danh-muc/phu-kien.html" class="a-parent">
+                                                Phụ Kiện
+                                                    <i class="fa fa-angle-down hidden-xs hidden-sm" aria-hidden="true"></i>
+                                            </a>
+                                            <i class="fa fa-angle-right hidden-md ase" aria-hidden="true"></i>
+    
+                                                <div class="out-menu menu-outer">
+                                                    <div class="row">
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    <li>Dụng cụ trang điểm</li>
+                                                                                    <li>Phụ kiện làm đẹp</li>
+                                                                                   
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                
+                                                    </div>
+                                                </div>
+    
+    
+                                        </li>
+                                        <li class="li-parent">
+                                            <a href="/danh-muc/nuoc-hoa.html" class="a-parent">
+                                                Nước Hoa
+                                                    <i class="fa fa-angle-down hidden-xs hidden-sm" aria-hidden="true"></i>
+                                            </a>
+                                            <i class="fa fa-angle-right hidden-md ase" aria-hidden="true"></i>
+    
+                                                <div class="out-menu menu-outer">
+                                                    <div class="row">
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    
+                                                                                    <li>Nước hoa</li>
+                                                                                    <li>Xịt thơm body</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                        
+                                                    </div>
+                                                </div>
+    
+    
+                                        </li>
+                                        <li class="li-parent">
+                                            <a href="/danh-muc/tam-duong-the.html" class="a-parent">
+                                                Chăm Sóc Toàn Thân
+                                                    <i class="fa fa-angle-down hidden-xs hidden-sm" aria-hidden="true"></i>
+                                            </a>
+                                            <i class="fa fa-angle-right hidden-md ase" aria-hidden="true"></i>
+    
+                                                <div class="out-menu right-mn">
+                                                    <div class="row">
+                                                                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    <li>Sữa tắm</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    <li>Dưỡng da tay</li>
+                                                                                    <li>Tẩy tế bào chết</li>
+                                                                                    <li>Tẩy lông</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                                    <div>
+                                                                        <ul class="ul-non ul-out">
+                                                                                    <li>Khử mùi</li>
+                                                                                    <li>Giảm sẹo – Giảm thâm – Giảm nám</li>
+                                                                                    <li>Chăm sóc răng miệng</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                        <div class="hide col-md-12 col-sm-12 col-xs-12 hidden-sm hidden-xs">
+                                                            <div>
+                                                                <img alt="banner-maker" class="img-reponsive lazy-img" src="#banner ">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+    
+    
+                                        </li>
+                                <li class="li-parent">
+                                    <a href="/san-pham-khuyen-mai.html" class="a-parent">
+                                        Khuyến mãi
+                                        <i class="fa fas" aria-hidden="true"></i>
+                                        <span class="pos-kam">Hot</span>
+                                    </a>
+                                </li>
+                                <li class="li-parent">
+                                    <a href="#" class="a-parent">
+                                        Thương hiệu
+                                        <i class="fa fa-angle-down hidden-xs hidden-sm" aria-hidden="true"></i>
+                                    </a>
+                                    <i class="fa fa-angle-right hidden-md ase" aria-hidden="true"></i>
+                                    <div class="out-menu right-mn">
+                                        <div class="row">
+                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                        <div>
+                                                            <ul class="ul-non ul-out">
+                                                                        <li>Avene</li>
+                                                                        <li>Bioderma</li>
+                                                                        <li>DHC</li>
+                                                                        <li>Hada Labo</li>
+                                                                        <li>Simple</li>
+                                                                        <li>The Face Shop</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                                        <div>
+                                                            <ul class="ul-non ul-out">
+                                                                        <li>Holika Holika</li>
+                                                                        <li>Innisfree</li>
+                                                                        <li>LANEIGE KOREA</li>
+                                                                        <li>L'oreal Paris</li>
+                                                                        <li>Mamonde</li>
+                                                                        <li>Maybelline</li>
+                                                                        <li>Missha</li>
+                                                                        <li>Nature Republic</li>
+                                                                        <li>The Body Shop</li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="ul-non ul-right">
+                                <li>
+                                    <a><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    <div class="searcf-s">
+                                        <form class="form-inline">
+                                            <input type="text" class="form-control my-form" id="inlineFormInputName3" placeholder="Tìm kiếm..." autocomplete="off" onfocus="onfos2()" onfocusout="unfos2()">
+                                            <button type="button" class="btn btn-search" onclick="SearchingForm()"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                        </form>
+                                        <div class="xuongform2 pol-lem ">
+                                            <p>Xu hướng tìm kiếm</p>
+                                            <ul class="ul-non ul-xuhuong ">
+                                                        <li><a href="/tim-kiem.html?keyword=son">son</a></li>
+                                                        <li><a href="/tim-kiem.html?keyword=kem duong">kem duong</a></li>
+                                                        <li><a href="/tim-kiem.html?keyword=innisfree">innisfree</a></li>
+                                                        <li><a href="/tim-kiem.html?keyword=sua rua mat the face shop">sua rua mat the face shop</a></li>
+                                                      
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="/gio-hang.html">
+                                        <i class="fa fa-shopping-cart "></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="ul-non ul-menu-lagi hidden-md" id="ul-megaloger-mb">
+                                <li>
+                                    <a href="#" class="">
+                                        <div class="img-luna img-icon img-about"></div>
+                                        <span>Về chúng tôi</span>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    </a>
+                                    <ul class="ul-non ul-mega">
+                                        <li><a href="/noi-dung/gioi-thieu-beautygarden.html">Giới thiệu Beautygarden</a></li>
+                                        <li><a href="/noi-dung/he-thong-cua-hang.html">Hệ thống cửa hàng</a></li>
+                                        <li><a href="/noi-dung/chuong-trinh-tich-diem.html">Chương trình tích điểm</a></li>
+                                        <li><a href="/noi-dung/bao-mat-thong-tin.html">Bảo mật thông tin</a></li>
+                                        <li><a href="/noi-dung/dieu-khoan-su-dung.html">Điều khoản sử dụng</a></li>
+                                    </ul>
+                                </li>
+                               
+                                <li>
+                                    <a href="/lien-he.html" class="">
+                                        <div class="img-luna img-icon img-contact"></div>
+                                        <span>Liên hệ</span>
+                                    </a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="all-contents">
+        <div class="trust-box">
+            <div class="tittle-trust color-theme">
+                Sản phẩm trong giỏ hàng: <span class="color-theme numcart">0</span>
+            </div>
+            <div class="show-cart" id="show-cart">
+            </div>
+        </div>
+    </div>
+    <main role="main" class="pb-3">
+        
+        <style>
+            img {
+                aspect-ratio: attr(width) / attr(height);
+            }
+        </style>
+        <div class="bracum">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ol class="ol-non">
+                            <li><a href="/">Trang chủ</a></li>
+                            <li><a href="/danh-muc/kem-che-khuyet-diem.html">Kem che khuyết điểm</a></li>
+                            <li><a href="/sap-che-khuyet-diem-va-tao-khoi-odbo-fix-concealer-shading-stick-3gr-x2-od450.html">Sáp Che Khuyết Điểm Và Tạo Khối Odbo Fix Concealer + Shading Stick - OD450</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="box-product-detail">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mar-bot-20">
+                                        <div class="box-img-detail">
+                                            <div class="config-alige">
+                                                <div class="easyzoom easyzoom--overlay easyzoom--with-thumbnails is-ready">
+                                                    <a href="https://adminbeauty.hvnet.vn/Upload/Files/S%C3%A1p-che-khuy%E1%BA%BFt-%C4%91i%E1%BB%83m-t%E1%BA%A1o-kh%E1%BB%91i-Odbo-Fix-Concealer-Shading-Stick-OD450.jpg">
+                                                        <img src="https://adminbeauty.hvnet.vn/Upload/Files/S%C3%A1p-che-khuy%E1%BA%BFt-%C4%91i%E1%BB%83m-t%E1%BA%A1o-kh%E1%BB%91i-Odbo-Fix-Concealer-Shading-Stick-OD450.jpg?width=350&amp;height=391" data-src="https://adminbeauty.hvnet.vn/Upload/Files/S%C3%A1p-che-khuy%E1%BA%BFt-%C4%91i%E1%BB%83m-t%E1%BA%A1o-kh%E1%BB%91i-Odbo-Fix-Concealer-Shading-Stick-OD450.jpg?width=350&amp;height=391" alt="Sáp Che Khuyết Điểm Và Tạo Khối Odbo Fix Concealer + Shading Stick - OD450" class="img-reponsive lazy loaded" width="300" height="305" data-was-processed="true">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-thumnail-detail">
+                                            <a href="javascript:void(0)" class="thumnail-pre btn-thumail">
+                                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                            </a>
+                                            <div class="thumbnails owl-carousel owl-loaded owl-drag">
+                                                
+                                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 108px;"><div class="owl-item active" style="width: 97.5px; margin-right: 10px;"><div class="item">
+                                                    <div class="item-thumnail">
+                                                        <a href="https://adminbeauty.hvnet.vn/Upload/Files/S%C3%A1p-che-khuy%E1%BA%BFt-%C4%91i%E1%BB%83m-t%E1%BA%A1o-kh%E1%BB%91i-Odbo-Fix-Concealer-Shading-Stick-OD450.jpg" data-standard="https://adminbeauty.hvnet.vn/Upload/Files/S%C3%A1p-che-khuy%E1%BA%BFt-%C4%91i%E1%BB%83m-t%E1%BA%A1o-kh%E1%BB%91i-Odbo-Fix-Concealer-Shading-Stick-OD450.jpg" class="active">
+                                                            <img width="85" height="85" data-src="https://adminbeauty.hvnet.vn/Upload/Files/S%C3%A1p-che-khuy%E1%BA%BFt-%C4%91i%E1%BB%83m-t%E1%BA%A1o-kh%E1%BB%91i-Odbo-Fix-Concealer-Shading-Stick-OD450.jpg?width=85&amp;height=85&amp;v=15042020" alt="Sáp Che Khuyết Điểm Và Tạo Khối Odbo Fix Concealer + Shading Stick - OD450" class="img-reponsive lazy loaded" src="https://adminbeauty.hvnet.vn/Upload/Files/S%C3%A1p-che-khuy%E1%BA%BFt-%C4%91i%E1%BB%83m-t%E1%BA%A1o-kh%E1%BB%91i-Odbo-Fix-Concealer-Shading-Stick-OD450.jpg?width=85&amp;height=85&amp;v=15042020" data-was-processed="true">
+                                                        </a>
+                                                    </div>
+                                                </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div></div>
+                                            <a href="javascript:void(0)" class="thumnail-nex btn-thumail">
+                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <h1 class="title-Product">
+                                            Sáp Che Khuyết Điểm Và Tạo Khối Odbo Fix Concealer + Shading Stick - OD450
+                                        </h1>
+                                        <div class="rate-star">
+                                            <div class="rating-stars" data-star="4">
+                                                <ul id="stars">
+                                                    <li class="star selected" title="Tệ" data-value="1" onclick="chooseReview(this)">
+                                                        <i class="fa fa-star fa-fw"></i>
+                                                    </li>
+                                                    <li class="star selected" title="Tạm được" data-value="2" onclick="chooseReview(this)">
+                                                        <i class="fa fa-star fa-fw"></i>
+                                                    </li>
+                                                    <li class="star selected" title="Tốt" data-value="3" onclick="chooseReview(this)">
+                                                        <i class="fa fa-star fa-fw"></i>
+                                                    </li>
+                                                    <li class="star selected" title="Rất tốt" data-value="4" onclick="chooseReview(this)">
+                                                        <i class="fa fa-star fa-fw"></i>
+                                                    </li>
+                                                    <li class="star" title="Tuyệt vời" data-value="5" onclick="chooseReview(this)">
+                                                        <i class="fa fa-star fa-fw"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="text-rating">
+                                                <p><span>4</span> sao - <span>1</span> lượt đánh giá</p>
+                                            </div>
+                                        </div>
+                                        <div class="box-price">
+                                            <div class="price-drop">
+                                                <span>85,000₫</span>
+                                                <span class="issale hide">110,000₫</span>
+                                                <span class="persale hide">- 23%</span>
+                                            </div>
+                                            <div class="price-vince">
+                                                <p>Giá thị trường: <span>110,000₫</span> - Tiết kiệm: <span>25,000₫ </span> (<span>- 23%</span>)</p>
+                                            </div>
+                                            <div class="hanc">
+                                                <p>Thương hiệu: Thương Hiệu Khác</p>
+                                            </div>
+                                                
+                                        </div>
+                                        <div class="box-note hide">
+                                            
+                                        </div>
+                                        <div class="card-box">
+                                            <div class="  min-sch ">
+                                                <span class="">Màu: <span><b id="load-type">#2</b></span></span>
+                                            </div>
+                                            <div class="select-land  ">
+                                                <span class="">Chọn màu:</span>
+                                                <ul class="ul-non ul-select">
+                                                    <li class="active"><a style="background:#efc79b" onclick="changeBarcode(this,'8858910626771','8955', 'False')" data-typename="#2"></a></li>
+                                                    <li class=""><a style="background:#f6d3b6" onclick="changeBarcode(this,'8858910626788','8955', 'False')" data-typename="#3"></a></li>
+                                                    <li class=""><a style="background:#f1c8a4" onclick="changeBarcode(this,'8858910626764','8955', 'False')" data-typename="#1"></a></li>
+                                                </ul>
+                                                <div class="clr"></div>
+                                            </div>
+                                            <div class="inner-load">
+                                                <div class="box-add">
+                                                    <div class="number-card">
+                                                        <span>Số lượng:</span>
+                                                        <input type="number" name="numberproduct" id="numberproduct" class="form-control" value="1" min="1" max="99" data-barcode="8858910626771" data-refid="8955">
+                                                        <div class="clr"></div>
+                                                    </div>
+                                                    <div class="bst">
+                                                        <button type="button" class="btn-bts btn-atc" onclick="AddCard(1)">
+                                                            <i class="fa fa-shopping-cart"></i>
+                                                            Thêm giỏ hàng
+                                                        </button>
+                                                        <button type="button" class="btn-bts btn-fs" onclick="AddCard(2)">
+                                                            Mua Nhanh
+                                                        </button>
+                                                        <button type="button" class="btn-bts btn-hea " onclick="LikeProduct(this, '8955')">
+                                                            <i class="fa fa-heart-o heart_new"></i>
+                                                        </button>
+                                                        <div class="clr"></div>
+                                                    </div>
+                                                    <div class="clr"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+        
+        
+                        <div class="box-thongtin">
+                            <div class="item-note ">
+                                <div class="title-member">
+                                    <h2>Thông tin sản phẩm</h2>
+                                </div>
+                                <div class="back-content">
+                                    <h1 style="text-align: center;"><em><strong>Sáp Che Khuyết Điểm &amp; Tạo Khối Odbo Fix Concealer + Shading Stick&nbsp;</strong></em></h1>
+        <p><strong>ODBO</strong> là một trong những thương hiệu làm đẹp chuyên về các sản phẩm trang điểm hàng đầu tại Thái Lan. Với các sản phẩm đa dạng từ trang điểm nền, phấn phủ, màu mắt, màu má, tạo khối,... đến các món phụ kiện như bông phấn hay cọ trang điểm, tất cả đều được chăm chút từ thiết kế bao bì đến chất lượng sản phẩm.&nbsp;</p>
+        <p><strong>Sáp che khuyết điểm và tạo khối&nbsp;Odbo Fix Concealer + Shading Stick</strong> với 2 đầu, 1 đầu tông màu da để che khuyết điểm - 1 đầu tông màu tối để tạo khối nhằm "thu gọn" khuôn mặt, thật đơn giản và tiện lợi với sản phẩm 2 trong 1 này, mang đến tính tiện dụng, gọn nhẹ khi sử dụng.&nbsp;</p>
+        <p><strong> <img width="640" height="640" style="display: block; margin-left: auto; margin-right: auto;" src="../lib/images/sap-che-khuyet-diem-va-tao-khoi-odbo-fix-concealer-shading-stick-3gr-x2-od450-0-hinh-anh-1.jpg" alt="sap che khuyet diem va tao khoi odbo fix concealer shading stick 3gr x2 od450 hinh anh 1" class="lazy"></strong></p>
+        <p>- Sản phẩm dạng thỏi với chất sáp mềm như bơ, dễ tán đều, mướt mịn</p>
+        <p>- Đầu che khuyết điểm có độ che phủ cao che lấp đi những khuyết điểm như mụn, vết thâm do mụn gây ra và cả quầng thâm mắt</p>
+        <p>- <strong>Odbo Fix Concealer + Shading Stick</strong> đều có 3 tông màu phù hợp với mọi tông da</p>
+        <p><strong><img width="640" height="640" style="display: block; margin-left: auto; margin-right: auto;" src="../lib/images/sap-che-khuyet-diem-va-tao-khoi-odbo-fix-concealer-shading-stick-3gr-x2-od450-0-hinh-anh-2.jpg" alt="" class="lazy"></strong></p>
+        <p><strong><img width="640" height="640" style="display: block; margin-left: auto; margin-right: auto;" src="../lib/images/sap-che-khuyet-diem-va-tao-khoi-odbo-fix-concealer-shading-stick-3gr-x2-od450-0-hinh-anh-3.jpg" alt="sap che khuyet diem va tao khoi odbo fix concealer shading stick 3gr x2 od450 hinh anh 3" class="lazy"></strong></p>
+        <p><img width="640" height="640" style="display: block; margin-left: auto; margin-right: auto;" src="../lib/images/sap-che-khuyet-diem-va-tao-khoi-odbo-fix-concealer-shading-stick-3gr-x2-od450-0-hinh-anh-4.jpg" alt="sap che khuyet diem va tao khoi odbo fix concealer shading stick 3gr x2 od450 hinh anh 4" class="lazy"></a></p>
+        <p>-&nbsp;</p>
+                                </div>
+                            </div>
+                            <div class="item-note hide">
+                                <div class="title-member right-border title-behide">
+                                    <h2></h2>
+                                </div>
+                                <div class="back-content">
+                                    
+                                </div>
+                            </div>
+                            <div class="item-note hide">
+                                <div class="title-member right-border title-behide">
+                                    <h2></h2>
+                                </div>
+                                <div class="back-content">
+                                    
+                                </div>
+                            </div>
+                            <div class="item-note hide">
+                                <div class="title-member right-border title-behide ">
+                                    <h2></h2>
+                                </div>
+                                <div class="back-content">
+                                    
+                                </div>
+                            </div>
+                            <div class="item-note hide">
+                                <div class="title-member right-border title-behide">
+                                    <h2></h2>
+                                </div>
+                                <div class="back-content">
+                                    
+                                </div>
+                            </div>
+                            <div class="item-note ">
+                                <div class="title-member right-border title-behide">
+                                    <h2>lý do nên mua tại MachoCare</h2>
+                                </div>
+                                <div class="back-content">
+                                    <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(102, 102, 102); font-family: Arial, serif; font-size: 14px;">
+            <span style="color: rgb(51, 51, 51); font-family: arial; font-weight: 700;">CAM KẾT CHÍNH HÃNG</span></p>
+        <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(102, 102, 102); font-family: Arial, serif; font-size: 14px;">
+            <span style="box-sizing: border-box; font-weight: 700; margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: arial;">ĐỘI NGŨ TƯ VẤN CHUYÊN NGHIỆP</span></p>
+        <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(102, 102, 102); font-family: Arial, serif; font-size: 14px;">
+            <span style="color: rgb(51, 51, 51); font-family: arial; font-weight: 700;">GIAO HÀNG TRÊN TOÀN QUỐC</span></p>
+        
+                                </div>
+                            </div>
+                        </div>
+        
+        
+        
+                     
+        
+                      
+        
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="box-left">
+                            <div class="title-left">
+                                <strong>-- CHẤT LƯỢNG CHO TẤT CẢ --</strong>
+                            </div>
+                            <div class="content-left pad-8-15">
+                                <div class="box-shas rig-limit">
+                                    <img width="75" height="70" data-src="https://adminbeauty.hvnet.vn/Upload/files/chinh-sach-04.png?v=012" src="https://adminbeauty.hvnet.vn/Upload/files/chinh-sach-04.png?v=012" alt="TRI ÂN KHÁCH HÀNG" class="img-reponsive lazy loaded" data-was-processed="true">
+                                    <div class="content-shas">
+                                        <strong>mỹ phẩm chính hãng </strong>
+                                        <p>Chất lượng sản phẩm luôn được chứng nhận bằng sự tin cậy của Khách Hàng suốt nhiều năm qua</p>
+                                    </div>
+                                    <div class="clr"></div>
+                                </div>
+                                <div class="box-shas rig-limit">
+                                    <img width="75" height="70" data-src="https://adminbeauty.hvnet.vn/Upload/files/chinh-sach-05.png?v=012" src="https://adminbeauty.hvnet.vn/Upload/files/chinh-sach-05.png?v=012" alt="TRI ÂN KHÁCH HÀNG" class="img-reponsive lazy loaded" data-was-processed="true">
+                                    <div class="content-shas">
+                                        <strong>
+                                            LUÔN ĐƯỢC TÍCH ĐIỂM
+                                        </strong>
+                                        <p>
+                                            Đơn hàng từ 100k=1 điểm 10 điểm nhận voucher 100k
+                                        </p>
+                                    </div>
+                                    <div class="clr"></div>
+                                </div>
+                                <div class="box-shas rig-limit">
+                                    <img width="75" height="70" data-src="https://adminbeauty.hvnet.vn/Upload/files/chinh-sach-06.png?v=012" src="https://adminbeauty.hvnet.vn/Upload/files/chinh-sach-06.png?v=012" alt="TRI ÂN KHÁCH HÀNG" class="img-reponsive lazy loaded" data-was-processed="true">
+                                    <div class="content-shas">
+                                        <strong>MIỄN PHÍ GIAO HÀNG </strong>
+                                    </div>
+                                    <div class="clr"></div>
+                                </div>
+                                <div class="box-shas rig-limit">
+                                    <img width="75" height="70" data-src="https://adminbeauty.hvnet.vn/Upload/files/chinh-sach-07.png?v=012" src="https://adminbeauty.hvnet.vn/Upload/files/chinh-sach-07.png?v=012" alt="TRI ÂN KHÁCH HÀNG" class="img-reponsive lazy loaded" data-was-processed="true">
+                                    <div class="content-shas">
+                                        <strong>TRI ÂN KHÁCH HÀNG</strong>
+                                        <p>Với các chương trình khuyến mãi, các sự kiện &amp; quà tặng đặc biệt vô cùng hấp dẫn</p>
+                                    </div>
+                                    <div class="clr"></div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bk-opps">
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        
+        
+            </main>
+            <footer class="border-top footer text-muted">
+                <div class="footer-first">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12">
+                                <div class="box-info">
+                                    <span> HỆ THỐNG CỬA HÀNG</span>
+                                    <ul class="ul-non ul-info">
+                                        <li>
+                                            <a href="javascript:void(0)" >
+                                                <b>
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    Quận 3 Tp.HCM
+                                                </b>
+                                                - Số 71, Đường số 3, Cư Xá Đô Thành, P4, Q3 - 0911 784 114
+                                                <div class="map-mages img-luna"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" >
+                                                <b>
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    Hà Nội
+                                                </b>
+                                                - 89 Chùa Bộc, Đống Đa, Hà Nội - 0911 584 114
+                                                <div class="map-mages img-luna"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" >
+                                                <b>
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    Hà Nội
+                                                </b>
+                                                - 165C Xuân Thủy, Cầu Giấy, Hà Nội - 0911.464.114
+                                                <div class="map-mages img-luna"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <b>
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    Đà Nẵng
+                                                </b>
+                                                - 94 Âu Cơ, P.Hòa Khánh Bắc, Q.Liên Chiểu, TP. Đà Nẵng - 0911.794.114
+                                                <div class="map-mages img-luna"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)">
+                                                <b>
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    Gia Lai
+                                                </b>
+                                                - 79 Hai Bà Trưng, P.Diên Hồng, Tp.Pleiku - 0911.520.114
+                                                <div class="map-mages img-luna"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" >
+                                                <b>
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    Đắk Lắk
+                                                </b>
+                                                - 87 Hai Bà Trưng, P.Thắng Lợi, TP.Buôn Ma Thuột - 0911.074.114
+                                                <div class="map-mages img-luna"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" >
+                                                <b>
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    Cần Thơ
+                                                </b>
+                                                - 154 Nguyễn Việt Hồng, P.An Phú, Ninh Kiều, Cần Thơ - 0911.504.114
+                                                <div class="map-mages img-luna"></div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" >
+                                                <b>
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    Cần Thơ
+                                                </b>
+                                                - 462 Nguyễn Văn Cừ, Phường An Hòa, Quận Ninh Kiều, TP.Cần Thơ - 0911.504.114
+                                                <div class="map-mages img-luna"></div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-6">
+                                <div class="box-info">
+                                    <span> VỀ CHÚNG TÔI</span>
+                                    <ul class="ul-non ul-infos">
+                                        <li><a href="../danh-muc/he-thong-cua-hang.html">Hệ thống cửa hàng</a></li>
+                                        <li><a href="../danh-muc/gioi-thieu.html">Giới thiệu Machocare</a></li>
+                                        <li><a href="#">Liên kết</a></li>
+                                        <li><a href="#">Bảo mật thông tin</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-6">
+                                <div class="box-info">
+                                    <span> HỖ TRỢ</span>
+                                    <ul class="ul-non ul-info ul-infos">
+                                        <li><a href="#">Giải đáp thắc mắc</a></li>
+                                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                                        <li><a href="#">Thanh toán &amp; Vận chuyển</a></li>
+                                        <li><a href="#">Chính sách đổi trả hàng</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="box-info">
+                                    <span> ĐĂNG KÝ NHẬN THÔNG TIN KHUYẾN MÃI</span>
+                                    <div>
+                                        <form class="example form-inline">
+                                            <input type="text" class="form-control ip-send" id="sendmail" placeholder="Vui lòng nhập email..." name="search2" fdprocessedid="5u1ie">
+                                            <button type="button" class="btn btn-send" onclick="sendmailfooter()" fdprocessedid="3y3e2p">GỬI</button>
+                                        </form>
+                                    </div>
+                                    <span class="non-back"> LIÊN KẾT</span>
+                                    <ul class="ul-non ul-sofooter">
+                                        <li><a href="#" target="_blank" class="a-fb"><i class="fa-brands fa-facebook-f" style="color: #fff;"></i></a></li>
+                                        <li><a href="#" target="_blank" class="a-it"><i class="fa-brands fa-instagram" style="color: #fff;"></i></a></li>
+                                        <li><a href="#" target="_blank" class="a-pn"><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                        <li><a href="#" target="_blank" class="a-gg"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                    <div class="clr"></div>
+                                    <div class="mar-top-10">
+                                        <a href="https://www.dmca.com/Protection/Status.aspx?ID=31bbc2bc-e92e-4421-ab72-4d4e9809c626&amp;refurl=https://beautygarden.vn/" title="DMCA.com Protection Status" class="dmca-badge" target="_blank"> 
+                                            <div class="img-luna img-dmca lazy" style="background-image: url(&quot;/lib/images/icon.png?v=001&quot;);"></div>
+                                        </a>
+                                        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-6 ">
+                                <div class="box-info">
+                                    <span> WEBSITE THUỘC QUYỀN</span>
+                                    <ul class="ul-non ul-infos">
+                                        <li>CÔNG TY CỔ PHẦN MACHOCARE</li>
+                                        <li>ĐKKD số: 0310035748</li>
+                                        <li>Do Sở KH&amp;ĐT Tp. HCM Cấp ngày 21/09/2023</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="box-info">
+                                    <span> TRỤ SỞ CHÍNH</span>
+                                    <ul class="ul-non ul-infos">
+                                        <li><a>Địa chỉ: 255 Bình Lợi, P. 13, Q. Bình Thạnh. Tp.HCM</a></li>
+                                        <li><a>Tel: 02 000 000 000 - Email: info@machocare.vn</a></li>
+                                        <li><a>Website: www.beautygarden.vn</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-12">
+                                <div class="box-info">
+                                    <a href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=38375" target="_blank">
+                                        <div class="img-luna img-ct lazy" style="background-image: url(&quot;/lib/images/icon.png?v=001&quot;);"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+</body>
+</html>

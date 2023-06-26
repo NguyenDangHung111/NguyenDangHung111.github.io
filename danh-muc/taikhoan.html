@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/taikhoan.css">
+    <title>Tài Khoản</title>
+</head>
+<body>
+    <div class="container">
+        <div class="signin-signup ">
+            <form action="" class="sign-in-form">
+                <h2 class="title">ĐĂNG NHẬP</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Email" id="username" onchange="validateEmail(event)">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Mật Khẩu" id="password">
+                </div>
+                <input type="submit" value="ĐĂNG NHẬP" class="btn" onclick="return validateForm()">
+                <p class="social-text">Hoặc</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+                <p class="account-text"><a href="#" id="sign-up-btn2">TẠO TÀI KHOẢN</a></p>
+            </form>
+            <form action="" class="sign-up-form">
+                <h2 class="title">TẠO TÀI KHOẢN</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Tài Khoản">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Email" id="username" onchange="validateEmail()" >
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Mật Khẩu">
+                </div>
+                <input type="submit" value="TẠO TÀI KHOẢN" class="btn">
+                <p class="social-text">Hoặc</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+                <p class="account-text"><a href="#" id="sign-in-btn2">ĐĂNG NHẬP</a></p>
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Machocare</h3>
+                    <p style="line-height: 25px;">Chúng tôi tin rằng vẻ đẹp là một nguồn năng lượng tích cực và tỏa sáng, và chúng tôi sẽ luôn cung cấp những sản phẩm chất lượng cao để giúp khách hàng thể hiện tốt nhất bản thân mình.</p>
+                    <button class="btn" id="sign-in-btn">ĐĂNG NHẬP</button>
+                </div>
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>Machocare</h3>
+                    <p style="line-height: 25px;">Chúng tôi tự hào có một bộ sưu tập đa dạng các sản phẩm mỹ phẩm, từ các thương hiệu nổi tiếng đến các sản phẩm tự nhiên và hữu cơ. Chúng tôi luôn nỗ lực để đáp ứng mọi nhu cầu và mong muốn của khách hàng về mỹ phẩm.</p>
+                    <button class="btn" id="sign-up-btn">TẠO TÀI KHOẢN</button>
+                </div>
+                <img src="signup.svg" alt="" class="image">
+            </div>
+        </div>
+    </div>
+    <script src="../js/taikhoan.js"></script>
+</body>
+</html>
