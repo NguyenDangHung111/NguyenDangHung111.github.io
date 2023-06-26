@@ -27483,7 +27483,7 @@ select.my-form {
 }
 
 .body-box-category {
-    min-height: 587px
+    min-height: 318px !important; 
 }
 
 .loader {
